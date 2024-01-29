@@ -105,7 +105,7 @@ public class ExcelUtils {
 		
 		style=wb.createCellStyle();
 		
-		style.setFillForegroundColor(IndexedColors.GREEN.getIndex());
+		style.setFillForegroundColor(IndexedColors.LIGHT_GREEN.getIndex());
 		style.setFillPattern(FillPatternType.SOLID_FOREGROUND); 
 				
 		cell.setCellStyle(style);

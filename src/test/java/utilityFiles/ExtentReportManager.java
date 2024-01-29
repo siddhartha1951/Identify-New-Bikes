@@ -10,7 +10,9 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtentReportManager implements ITestListener{
+import testBase.BaseClass;
+
+public class ExtentReportManager extends BaseClass implements ITestListener{
 	public ExtentSparkReporter sparkReporter;  // UI of the report
 	public ExtentReports extent;  //populate common info on the report
 	public ExtentTest test; // creating test case entries in the report and update status of the test methods
@@ -27,7 +29,7 @@ public class ExtentReportManager implements ITestListener{
 		extent.attachReporter(sparkReporter);
 		
 		extent.setSystemInfo("Computer Name","LTIN204528"); 
-		extent.setSystemInfo("Environment","GSD Cognizant");
+		extent.setSystemInfo("Environment","Zigwheels.com");
 		extent.setSystemInfo("Tester Name","Siddhartha Chakraborty(2303462)");
 		extent.setSystemInfo("os","Windows11");
 		extent.setSystemInfo("Browser name","Chrome,Edge");
@@ -39,6 +41,13 @@ public class ExtentReportManager implements ITestListener{
 		
 		test = extent.createTest(result.getName()); // create a new enty in the report
 		test.log(Status.PASS, "Test case PASSED is:" + result.getName()); // update status p/f/s
+		try {
+			String s = new Screenshots(driver).ScreenShot(result.getName());
+			test.addScreenCaptureFromPath(s);
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 		
 	}
 

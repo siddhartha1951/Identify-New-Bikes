@@ -3,7 +3,35 @@
   <groupId>OrangeHRM</groupId>
   <artifactId>orangehrm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+   <build>
+	 <pluginManagement>
+		 
+		 <plugins>
+			<plugin>
+	          <groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-compiler-plugin</artifactId>
+	          <version>3.11.0</version>
+	        </plugin>
+	        
+	         <plugin>
+		          <groupId>org.apache.maven.plugins</groupId>
+		          <artifactId>maven-surefire-plugin</artifactId>
+		          <version>3.2.2</version>
+		          <configuration>
+					  <suiteXmlFiles>
+						  <suiteXmlFile>mastersuit.xml</suiteXmlFile>
+						  <!-- <suiteXmlFile>master.xml</suiteXmlFile>-->
+					  </suiteXmlFiles>
+				  </configuration>
+       		 </plugin>
+			 
+		 </plugins>
+		 
+	 </pluginManagement>
+	 
+ </build>
+ 
+ 
   <dependencies>
 	  
 	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
