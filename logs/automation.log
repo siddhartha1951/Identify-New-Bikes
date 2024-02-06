@@ -1,0 +1,81 @@
+16:14:04.276 [main] INFO  testCases.TS001_UpcomingBikes - TS001_UpcomingBikes Started!!
+16:14:04.287 [main] INFO  testCases.TS001_UpcomingBikes - Test clickUpcomingBikes Started!!
+16:14:11.223 [main] INFO  testCases.TS001_UpcomingBikes - Clicked on Upcoming Bikes
+16:14:11.624 [main] INFO  testCases.TS001_UpcomingBikes - Test selectManufacturer Started!!
+16:14:15.858 [main] INFO  testCases.TS001_UpcomingBikes - Selected bike manufacturer Honda.!!
+16:14:16.247 [main] INFO  testCases.TS001_UpcomingBikes - Honda Bikes are Shown.!!
+16:14:26.472 [main] INFO  testCases.TS001_UpcomingBikes - Test printBikeDetails Started!!
+16:14:38.795 [main] INFO  testCases.TS001_UpcomingBikes - Getting details of all bikes present, Prices less than 4 lacs.!!
+16:14:54.098 [main] INFO  testCases.TS001_UpcomingBikes - TS001_UpcomingBikes Started!!
+16:14:54.098 [main] INFO  testCases.TS001_UpcomingBikes - Test clickUpcomingBikes Started!!
+16:15:00.295 [main] INFO  testCases.TS001_UpcomingBikes - Clicked on Upcoming Bikes
+16:15:00.872 [main] INFO  testCases.TS001_UpcomingBikes - Test selectManufacturer Started!!
+16:15:04.886 [main] INFO  testCases.TS001_UpcomingBikes - Selected bike manufacturer Honda.!!
+16:15:05.682 [main] INFO  testCases.TS001_UpcomingBikes - Honda Bikes are Shown.!!
+16:15:15.480 [main] INFO  testCases.TS001_UpcomingBikes - Test printBikeDetails Started!!
+16:15:25.061 [main] INFO  testCases.TS001_UpcomingBikes - Getting details of all bikes present, Prices less than 4 lacs.!!
+16:16:35.216 [main] INFO  testCases.TS001_UpcomingBikes - TS001_UpcomingBikes Started!!
+16:16:35.228 [main] INFO  testCases.TS001_UpcomingBikes - Test clickUpcomingBikes Started!!
+16:16:41.189 [main] INFO  testCases.TS001_UpcomingBikes - Clicked on Upcoming Bikes
+16:16:41.567 [main] INFO  testCases.TS001_UpcomingBikes - Test selectManufacturer Started!!
+16:16:44.160 [main] INFO  testCases.TS001_UpcomingBikes - Selected bike manufacturer Honda.!!
+16:16:44.557 [main] INFO  testCases.TS001_UpcomingBikes - Honda Bikes are Shown.!!
+16:16:56.570 [main] INFO  testCases.TS001_UpcomingBikes - Test printBikeDetails Started!!
+16:17:08.145 [main] INFO  testCases.TS001_UpcomingBikes - Getting details of all bikes present, Prices less than 4 lacs.!!
+16:17:23.415 [main] INFO  testCases.TS001_UpcomingBikes - TS001_UpcomingBikes Started!!
+16:17:23.415 [main] INFO  testCases.TS001_UpcomingBikes - Test clickUpcomingBikes Started!!
+16:19:12.817 [main] INFO  testCases.TS001_UpcomingBikes - TS001_UpcomingBikes Started!!
+16:19:12.827 [main] INFO  testCases.TS001_UpcomingBikes - Test clickUpcomingBikes Started!!
+16:19:19.153 [main] INFO  testCases.TS001_UpcomingBikes - Clicked on Upcoming Bikes
+16:19:19.648 [main] INFO  testCases.TS001_UpcomingBikes - Test selectManufacturer Started!!
+16:19:24.474 [main] INFO  testCases.TS001_UpcomingBikes - Selected bike manufacturer Honda.!!
+16:19:26.316 [main] INFO  testCases.TS001_UpcomingBikes - Honda Bikes are Shown.!!
+16:19:36.226 [main] INFO  testCases.TS001_UpcomingBikes - Test printBikeDetails Started!!
+16:19:48.885 [main] INFO  testCases.TS001_UpcomingBikes - Getting details of all bikes present, Prices less than 4 lacs.!!
+16:20:06.804 [main] INFO  testCases.TS001_UpcomingBikes - TS001_UpcomingBikes Started!!
+16:20:06.805 [main] INFO  testCases.TS001_UpcomingBikes - Test clickUpcomingBikes Started!!
+16:20:16.426 [main] INFO  testCases.TS001_UpcomingBikes - Clicked on Upcoming Bikes
+16:20:17.265 [main] INFO  testCases.TS001_UpcomingBikes - Test selectManufacturer Started!!
+16:20:24.122 [main] INFO  testCases.TS001_UpcomingBikes - Selected bike manufacturer Honda.!!
+16:20:26.043 [main] INFO  testCases.TS001_UpcomingBikes - Honda Bikes are Shown.!!
+16:20:38.098 [main] INFO  testCases.TS001_UpcomingBikes - Test printBikeDetails Started!!
+10:03:33.473 [TestNG-tests-1] ERROR org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller - Cannot write: /xl/theme/theme1.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:91) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.MemoryPackagePart.save(MemoryPackagePart.java:111) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at utilityFiles.ExcelUtils.setCellData(ExcelUtils.java:90) ~[test-classes/:?]
+	at testCases.TS003_AccountLogin.checkLoginStatus(TS003_AccountLogin.java:39) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]

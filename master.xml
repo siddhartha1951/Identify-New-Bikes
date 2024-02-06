@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+        <listener class-name="utilityFiles.ExtentReportManager"/>
+    </listeners>
+    
+  <test name="ChromeTest">
+    <parameter name="browser" value="chrome" /> 
+    <parameter name="os" value="Windows" /> 
+  	
+  	<groups>
+   		<run>
+			<include name="Master" />
+			<include name="Sanity" /> 
+			<include name="Regression" />
+			<exclude name="" />
+		</run>
+	</groups>
+	
+    <classes>
+    
+      <class name="testCases.TS001_UpcomingBikes"/>
+      <class name="testCases.TS002_UsedCars"/>
+	  <class name="testCases.TS003_AccountLogin"/>
+
+    </classes>
+  </test> 
+  
+ <test name="EdgeTest">
+	<parameter name="os" value="Windows" /> 
+	<parameter name="browser" value="edge" /> 
+	
+	<groups>
+   		<run>
+			<include name="Master" />
+			<include name="Sanity" />
+			<include name="Regression" /> 
+			<exclude name="" />
+		</run>
+	</groups>
+	
+    <classes>
+    
+      <class name="testCases.TS001_UpcomingBikes"/>
+      <class name="testCases.TS002_UsedCars"/>
+	  <class name="testCases.TS003_AccountLogin"/>
+
+    </classes>
+  </test>
+</suite> <!-- Suite -->
