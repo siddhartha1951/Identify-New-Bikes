@@ -1,5 +1,7 @@
 package utilityFiles;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import org.testng.ITestContext;
@@ -20,9 +22,9 @@ public class ExtentReportManager extends BaseClass implements ITestListener{
 	public ExtentTest test; // creating test case entries in the report and update status of the test methods
 
 	public void onStart(ITestContext context) {
-			
-		sparkReporter=new ExtentSparkReporter(System.getProperty("user.dir")+ "/reports/myReport.html");//specify location of the report
-		
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
+		String repName = "Test-Report-" + timeStamp + ".html";
+		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report	
 		sparkReporter.config().setDocumentTitle("Automation Report"); // TiTle of report
 		sparkReporter.config().setReportName("Functional Testing"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);				// Theme of the report 
