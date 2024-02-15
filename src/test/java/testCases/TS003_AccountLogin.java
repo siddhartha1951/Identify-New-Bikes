@@ -18,7 +18,7 @@ public class TS003_AccountLogin extends BaseClass{
 		ExcelUtils excel = new ExcelUtils();
 		String xlFile = System.getProperty("user.dir")+"\\testData\\testexcel.xlsx";
 		Screenshots ss = new Screenshots(driver);
-		
+		Thread.sleep(3000);
 		al.clickOnLoginSignUp();
 		ss.ScreenShot("S7_LoginOptions");
 		al.clickRegisterWithGoogle();

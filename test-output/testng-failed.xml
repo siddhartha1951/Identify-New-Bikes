@@ -4,44 +4,6 @@
   <listeners>
     <listener class-name="utilityFiles.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="ChromeTest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-        <include name="Sanity"/>
-        <include name="Regression"/>
-        <exclude name=""/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCases.TS001_UpcomingBikes">
-        <methods>
-          <include name="clickUpcomingBikes"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="printBikeDetails"/>
-          <include name="selectManufacturer"/>
-        </methods>
-      </class> <!-- testCases.TS001_UpcomingBikes -->
-      <class name="testCases.TS002_UsedCars">
-        <methods>
-          <include name="tearDown"/>
-          <include name="findUsedCars"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TS002_UsedCars -->
-      <class name="testCases.TS003_AccountLogin">
-        <methods>
-          <include name="checkLoginStatus"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="clickLoginButton"/>
-        </methods>
-      </class> <!-- testCases.TS003_AccountLogin -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
   <test thread-count="5" name="EdgeTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
@@ -54,25 +16,8 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TS001_UpcomingBikes">
-        <methods>
-          <include name="clickUpcomingBikes"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="printBikeDetails"/>
-          <include name="selectManufacturer"/>
-        </methods>
-      </class> <!-- testCases.TS001_UpcomingBikes -->
-      <class name="testCases.TS002_UsedCars">
-        <methods>
-          <include name="tearDown"/>
-          <include name="findUsedCars"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TS002_UsedCars -->
       <class name="testCases.TS003_AccountLogin">
         <methods>
-          <include name="checkLoginStatus"/>
           <include name="tearDown"/>
           <include name="clickLoginButton"/>
           <include name="setup"/>
